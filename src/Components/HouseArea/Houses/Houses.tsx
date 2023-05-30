@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { HouseModel } from "../../../Models/HouseModel";
 import houseService from "../../../Services/HouseService";
 import HouseCard from "../HouseCard/HouseCard";
-import { TextField, Button} from "@mui/material";
+import { Button} from "@mui/material";
 import RefreshIcon from '@mui/icons-material/Refresh';
 import "./Houses.css";
 import { FetchAction, houseStore } from "../../../Redux/HouseState";

@@ -5,7 +5,7 @@ import { AddAction, FetchAction, houseStore } from "../Redux/HouseState";
 
 class HousesService{
     public async getAllHouses(){
-        if(houseStore.getState().houses.length == 0){ // In order do not to request the server "all the time"
+        if(houseStore.getState().houses.length === 0){ // In order do not to request the server "all the time"
             const response = axios.get<HouseModel[]>(appConfig.housesUrl);
             const houses = (await response).data;
             houseStore.dispatch(FetchAction(houses));// send the HouseModel[] to the HouseState

@@ -1,5 +1,5 @@
 import { HouseModel } from "../Models/HouseModel";
-import {configureStore, createStore} from "@reduxjs/toolkit";
+import { createStore} from "@reduxjs/toolkit";
 
 export class HousesState{    // Cash
     houses: HouseModel[] =[];
@@ -40,7 +40,7 @@ export function houseReducer(currentState = new HousesState(), action: HousesAct
         break;
         
         case HousesActionTypes.DeleteHouse:   // payload is id
-            const index = newState.houses.findIndex(h=>h.id == action.payload)
+            const index = newState.houses.findIndex(h=>h.id === action.payload)
             if(index >= 0)
                 newState.houses.splice(index, 1);
         break;

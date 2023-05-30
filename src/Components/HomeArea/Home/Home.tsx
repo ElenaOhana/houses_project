@@ -1,6 +1,4 @@
-import Login from "../../AuthArea/Login/Login";
 import SpecialHouse, { SpecialHouses } from "../../HouseArea/SpecialHouse/SpecialHouse";
-import { authStore } from "../../../Redux/AuthState";
 import HomeCalc from "../HomeCalc/HomeCalc";
 import "./Home.css";
 

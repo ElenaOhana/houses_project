@@ -29,7 +29,7 @@ function SpecialHouse(props: HouseProps): JSX.Element {
                 .catch()
             break;
         }
-    }, [])
+    }, [props.value])
 
     return (
         <div className="SpecialHouse">
