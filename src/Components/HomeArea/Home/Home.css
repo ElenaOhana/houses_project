@@ -1,0 +1,10 @@
+/* .Home > *{
+	padding: 20px;
+
+} */
+
+.Home {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+}

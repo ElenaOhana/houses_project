@@ -1,0 +1,13 @@
+.AddHouse {
+	margin: 20px;
+    text-align: center;
+}
+
+.AddHouse> .Input {
+    margin: 20px;
+}
+
+.AddHouse> form> textarea{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,9 @@
+.Header {
+	text-align: center;
+}
+
+.Header >.Menu{
+	position: absolute;
+	right: 40px;
+	top: 20px;
+}

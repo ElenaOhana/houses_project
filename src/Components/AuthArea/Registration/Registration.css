@@ -1,0 +1,25 @@
+.Registration {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+    align-items: center;
+	
+}
+
+.Registration> div {
+	border: solid 1px rgb(168, 167, 167);
+	border-radius: 4px;
+	margin: 40px;
+	padding: 20px;
+	
+	align-self: auto;
+	
+}
+
+
+.Registration> div >div .Link > a {
+	color: orange;
+	
+}

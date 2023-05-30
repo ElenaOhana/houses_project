@@ -1,0 +1,20 @@
+.Layout {
+	height: 100%;
+    display: grid;
+    grid-template-rows: 10% 5% 75%; /*  85%? */
+
+}
+
+.Layout >header , .Layout>nav, .Layout>main{
+    /* border-top: 1px solid black; */
+    background: linear-gradient(0deg, lightblue, white);
+}
+
+.Layout > main{
+    height: 100%;
+}
+
+.Layout >header {
+  /*   position:fixed; */
+}
+

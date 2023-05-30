@@ -1,0 +1,32 @@
+.Houses {
+    height: 100%;
+}
+
+.Houses > .housesDiv{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Houses >.housesDiv> button {
+    position: absolute;
+    left: 95%;
+}
+
+.Houses >.housesDiv> button >.MuiSvgIcon-root{
+    width: 1.5em;
+    height: 1.5em;
+    color: rgb(19, 5, 221);
+}
+
+
+.Houses >.parent{
+    /* text-align: center; */
+}
+
+.Houses >.parent >.child{
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px rgb(143, 141, 141);
+}
